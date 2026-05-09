@@ -1,0 +1,46 @@
+Starting project at C:\Users\AZero\OneDrive\Dev\vshop\vShop
+Starting Metro Bundler
+Waiting on http://localhost:8081
+Logs for your project will appear below.
+Web node_modules\expo-router\entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+λ node_modules\expo-router\node\render.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web node_modules\expo-router\entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+λ node_modules\expo-router\node\render.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+λ Bundled 1694ms node_modules\expo-router\node\render.js (1048 modules)
+λ Bundled 1749ms node_modules\expo-router\node\render.js (1 module)
+λ  WARN  props.pointerEvents is deprecated. Use style.pointerEvents 
+  console.warn (C:\Users\AZero\OneDrive\Dev\vshop\vShop\node_modules\expo\node_modules\@expo\cli\src\start\server\serverLogLikeMetro.ts:161:21)
+  warnOnce (C:\Users\AZero\OneDrive\Dev\vshop\vShop\node_modules\react-native-web\dist\modules\warnOnce\index.js:24:13)
+  createDOMProps (C:\Users\AZero\OneDrive\Dev\vshop\vShop\node_modules\react-native-web\dist\modules\createDOMProps\index.js:805:13)
+  createElement (C:\Users\AZero\OneDrive\Dev\vshop\vShop\node_modules\react-native-web\dist\exports\createElement\index.js:23:32)
+  Component (C:\Users\AZero\OneDrive\Dev\vshop\vShop\node_modules\react-native-web\dist\exports\View\index.js:111:23)
+  Object.callComponentInDEV [as react-stack-bottom-frame] (C:\Users\AZero\OneDrive\Dev\vshop\vShop\node_modules\react-dom\cjs\react-dom-server-legacy.node.development.js:8970:18)
+  renderWithHooks (C:\Users\AZero\OneDrive\Dev\vshop\vShop\node_modules\react-dom\cjs\react-dom-server-legacy.node.development.js:4699:19)
+  run (C:\Users\AZero\OneDrive\Dev\vshop\vShop\node_modules\react-dom\cjs\react-dom-server-legacy.node.development.js:5539:39)
+  retryNode (C:\Users\AZero\OneDrive\Dev\vshop\vShop\node_modules\react-dom\cjs\react-dom-server-legacy.node.development.js:5899:31)
+  renderNodeDestructive (C:\Users\AZero\OneDrive\Dev\vshop\vShop\node_modules\react-dom\cjs\react-dom-server-legacy.node.development.js:5849:11)
+λ  WARN  props.pointerEvents is deprecated. Use style.pointerEvents 
+  console.warn (C:\Users\AZero\OneDrive\Dev\vshop\vShop\node_modules\expo\node_modules\@expo\cli\src\start\server\serverLogLikeMetro.ts:161:21)
+  warnOnce (C:\Users\AZero\OneDrive\Dev\vshop\vShop\node_modules\react-native-web\dist\modules\warnOnce\index.js:24:13)
+  createDOMProps (C:\Users\AZero\OneDrive\Dev\vshop\vShop\node_modules\react-native-web\dist\modules\createDOMProps\index.js:805:13)
+  createElement (C:\Users\AZero\OneDrive\Dev\vshop\vShop\node_modules\react-native-web\dist\exports\createElement\index.js:23:32)
+  Component (C:\Users\AZero\OneDrive\Dev\vshop\vShop\node_modules\react-native-web\dist\exports\View\index.js:111:23)
+  Object.callComponentInDEV [as react-stack-bottom-frame] (C:\Users\AZero\OneDrive\Dev\vshop\vShop\node_modules\react-dom\cjs\react-dom-server-legacy.node.development.js:8970:18)
+  renderWithHooks (C:\Users\AZero\OneDrive\Dev\vshop\vShop\node_modules\react-dom\cjs\react-dom-server-legacy.node.development.js:4699:19)
+  run (C:\Users\AZero\OneDrive\Dev\vshop\vShop\node_modules\react-dom\cjs\react-dom-server-legacy.node.development.js:5539:39)
+  retryNode (C:\Users\AZero\OneDrive\Dev\vshop\vShop\node_modules\react-dom\cjs\react-dom-server-legacy.node.development.js:5899:31)
+  renderNodeDestructive (C:\Users\AZero\OneDrive\Dev\vshop\vShop\node_modules\react-dom\cjs\react-dom-server-legacy.node.development.js:5849:11)
+Web Bundled 3502ms node_modules\expo-router\entry.js (1112 modules)
+Web node_modules\expo-router\entry.js ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░ 99.9% (1112/1112)
+Web node_modules\expo-router\entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 3520ms node_modules\expo-router\entry.js (1 module)
+Web node_modules\expo-router\entry.js ▓▓▓▓▓▓░░░░░░░░░░ 41.2% (267/486)
+Web node_modules\expo-router\entry.js ▓▓▓▓▓▓▓▓▓▓▓▓▓░░░ 86.1% ( 939/1012)
+Web Bundled 7622ms node_modules\expo-router\entry.js (1111 modules)
+ LOG  [web] Logs will appear in the browser console
+Unable to resolve "C:\Users\AZero\OneDrive\Dev\vshop\vShop\app\onboarding\_layout.tsx" from "app?ctx=c9915d5ced2b656047aa496292a87964b21f4221"
+
+Import stack:
+
+ app (require.context)
+

@@ -7,6 +7,7 @@ import { useEffect } from 'react';
 import 'react-native-reanimated';
 
 import { useColorScheme } from '@/components/useColorScheme';
+import Colors from '@/constants/Colors';
 
 export {
   // Catch any errors thrown by the Layout component.
@@ -14,8 +15,7 @@ export {
 } from 'expo-router';
 
 export const unstable_settings = {
-  // Ensure that reloading on `/modal` keeps a back button present.
-  initialRouteName: '(tabs)',
+  initialRouteName: 'auth',
 };
 
 // Prevent the splash screen from auto-hiding before asset loading is complete.
@@ -47,12 +47,29 @@ export default function RootLayout() {
 
 function RootLayoutNav() {
   const colorScheme = useColorScheme();
+  const navigationTheme = {
+    ...(colorScheme === 'dark' ? DarkTheme : DefaultTheme),
+    colors: {
+      ...(colorScheme === 'dark' ? DarkTheme : DefaultTheme).colors,
+      background: Colors.palette.background,
+      card: Colors.palette.background,
+      primary: Colors.palette.cta,
+      text: Colors.palette.textPrimary,
+      border: Colors.palette.border,
+      notification: Colors.palette.favoriteRose,
+    },
+  };
 
   return (
-    <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
+    <ThemeProvider value={navigationTheme}>
       <Stack>
+        <Stack.Screen name="index" options={{ headerShown: false }} />
+        <Stack.Screen name="auth/index" options={{ title: 'Sign In' }} />
+        <Stack.Screen name="onboarding/index" options={{ title: 'Welcome' }} />
         <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
-        <Stack.Screen name="modal" options={{ presentation: 'modal' }} />
+        <Stack.Screen name="explore-filters" options={{ title: 'Filters' }} />
+        <Stack.Screen name="product/[id]" options={{ title: 'Product' }} />
+        <Stack.Screen name="try-on/[productId]" options={{ title: 'Try On' }} />
       </Stack>
     </ThemeProvider>
   );
